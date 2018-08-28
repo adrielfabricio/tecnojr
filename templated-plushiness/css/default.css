@@ -306,7 +306,7 @@ ul.contact li a.icon-rss:before
 {
 	display: inline-block;
 	padding: 1.3em 3em;
-	background: #FFC000;
+	background: #2B8FC4;
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
 	-o-transition: opacity 0.25s ease-in-out;
@@ -367,7 +367,7 @@ ul.contact li a.icon-rss:before
 	{
 		overflow: hidden;
 		padding: 5em 0em 0em 0em;
-		background: #FFC000 url(images/overlay.png) repeat;
+		background: #2B8FC4 url(images/overlay.png) repeat;
 	}
 
 	#header
@@ -960,7 +960,7 @@ ul.contact li a.icon-rss:before
 	width: 120px;
 	height: 80px;
 	line-height: 80px;
-	background: #FFC000;
+	background: #2B8FC4;
 	position: relative;
 	text-align: center;
 	color: #FFF;
@@ -975,7 +975,7 @@ ul.contact li a.icon-rss:before
 	height: 0;
 	border-left: 60px solid transparent;
 	border-right: 60px solid transparent;
-	border-bottom: 30px solid #FFC000;
+	border-bottom: 30px solid #2B8FC4;
 }
 .hexagon:after {
 	content: "";
@@ -986,7 +986,7 @@ ul.contact li a.icon-rss:before
 	height: 0;
 	border-left: 60px solid transparent;
 	border-right: 60px solid transparent;
-	border-top: 30px solid #FFC000;
+	border-top: 30px solid #2B8FC4;
 }
 
 #portfolio
