@@ -1,24 +1,29 @@
 <header>
-    <div id="header-wrapper">
-        <div id="header" class="container">
-            <div id="logo">
-                <span class="icon icon-group"></span>
-                <h1><a href="#">Plushiness</a></h1>
-                <span>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a></span>
-            </div>
-            <div id="triangle-up"></div>
-        </div>
+    <div id="header" class="center white-text">
+        <h1>tecnoJr</h1>
     </div>
-
-    <div id="menu-wrapper">
-        <div id="menu">
-            <ul>
-                <li class="current_page_item"><a class="scroll" href="#homepage">Homepage</a></li>
-                <li><a class="scroll" href="#">Our Clients</a></li>
-                <li><a class="scroll" href="#">About Us</a></li>
-                <li><a class="scroll" href="#">Careers</a></li>
-                <li><a class="scroll" href="#">Contact Us</a></li>
+    <!-- Efeito de triangulo -->
+    <div id="triangle-up"></div>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
             </ul>
         </div>
-    </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+
+
+
 </header>
