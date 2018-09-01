@@ -17,6 +17,12 @@ body {
 main {
 	flex: 1 0 auto;
 }
+.colorbluesite-text{
+	color: #2B8FC4;
+}
+.colorblacksite-text{
+	color: #3D3D3D;
+}
 
 /* ================ NAVBAR ================  */
 nav{
@@ -56,23 +62,23 @@ nav{
 
 
 /* ================ SOBRE NOS ================  */
+#sobrenos{
+	height: 400px;
+	background-color: white;
+	margin: 0;
+	padding-bottom: 10px;
+}
 #hr-title-left{
 	margin-top: 20px;
 	width: 30%;
-	border: 1px	solid white;
+	border: 1px	solid #3D3D3D;
 }
 #hr-title-right{
-	border: 1px	solid white;
+	border: 1px	solid #3D3D3D;
 	width: 30%;
 	margin-top: 20px;
 }
 
-#sobrenos{
-	height: 301px;
-	background-color: #3D3D3D;
-	margin: 0;
-	padding-bottom: 10px;
-}
 #sobrenos-title{
 	margin-left: 0;
 	margin-top: 0px;
@@ -88,15 +94,22 @@ nav{
 	width: 300px;
 }
 #hr-end-sobre{
-	margin-top: 10px;	
+	margin-top: 40px;	
 	margin-bottom: 10px;	
+
+}
+#hr-down{
+	border: 1px	solid #3D3D3D;
 }
 #parallax-sobrenos{
-	margin-top: 30px;
-	height: 300px;
+	height: 200px;
 }
 /* ================ FOOTER ================  */
 
 .page-footer{
 	background-color: #3D3D3D;
+}
+.footer-copyright{
+	box-shadow: 2px 2px 5px 4px rgba(22, 22, 22,.3);
+	
 }
