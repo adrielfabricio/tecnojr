@@ -1,10 +1,18 @@
 $(document).ready(function(){
+    $('.sidenav').sidenav();
     $(".scroll").click(function(event){        
         event.preventDefault();
         $('html,body').animate({scrollTop:$(this.hash).offset().top - 55}, 1000);
     });
     $('.parallax').parallax();
-});
+    
+    $(".card1").mouseover(function(){
+    	$("#abrir1").click();
+    });
+
+
+
+ });
 // estava na index
 function scroll(){
 	window.sr = ScrollReveal();

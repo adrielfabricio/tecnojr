@@ -104,6 +104,16 @@ nav{
 #parallax-sobrenos{
 	height: 200px;
 }
+#hr-servico-left{
+	margin-top: 20px;
+	width: 30%;
+	border: 1px	solid #FFFF;
+}
+#hr-servico-right{
+	border: 1px	solid #FFFF;
+	width: 30%;
+	margin-top: 20px;
+}
 /* ================ FOOTER ================  */
 
 .page-footer{
