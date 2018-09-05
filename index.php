@@ -39,17 +39,40 @@
 					</h4>
 										
 						
-					<div class="card col s12 m3 l3 card1">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="img/internet.png">
+					<div class="card col s12 m4 l4 ">
+						<div class="card-image waves-effect waves-block waves-light ">
+							<img class="activator responsive-img  circle" src="img/internet.png">
 						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Website<i id="abrir1" class="material-icons right">more_vert</i></span>
-							<p><a  href="#">This is a link</a></p>
+						<div class="card-content card1 ">
+							<span id="abrir1" class="card-title activator white-text ">Website</span>
 						</div>
 						<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Website<i class="material-icons right">close</i></span>
-						<p>Utilizado em divulgações. É informativo. Tem o intuito de chegar a um público maior.</p>
+							<span id="abrir2" class="card-title ">Website</span>
+							<p>Utilizado em divulgações. É informativo e tem o intuito de chegar a um público maior.</p>
+						</div>
+					</div>
+					<div class="card col s12 m4 l4 ">
+						<div class="card-image waves-effect waves-block waves-light ">
+							<img class="activator responsive-img circle" src="img/sistemas.png">
+						</div>
+						<div class="card-content card2 ">
+							<span id="abrir3" class="card-title activator white-text ">Sistemas Web</span>
+						</div>
+						<div class="card-reveal">
+							<span id="abrir4" class="card-title ">Sistemas Web</span>
+							<p>Utilizado em divulgações. É informativo e tem o intuito de chegar a um público maior.</p>
+						</div>
+					</div>
+					<div class="card col s12 m4 l4 ">
+						<div class="card-image waves-effect waves-block waves-light ">
+							<img class="activator responsive-img circle" src="img/internet.png">
+						</div>
+						<div class="card-content card3 ">
+						<span id="abrir5" class="card-title activator white-text ">Hospedagem de Sites</span>
+						</div>
+						<div class="card-reveal">
+							<span id="abrir6" class="card-title ">Website</span>
+							<p>Utilizado em divulgações. É informativo e tem o intuito de chegar a um público maior.</p>
 						</div>
 					</div>
 				</div>

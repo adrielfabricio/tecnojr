@@ -9,6 +9,21 @@ $(document).ready(function(){
     $(".card1").mouseover(function(){
     	$("#abrir1").click();
     });
+    $(".card-reveal").mouseleave(function(){
+        $("#abrir2").click();
+    });
+    $(".card2").mouseover(function(){
+    	$("#abrir3").click();
+    });
+    $(".card-reveal").mouseleave(function(){
+        $("#abrir4").click();
+    });
+    $(".card3").mouseover(function(){
+    	$("#abrir5").click();
+    });
+    $(".card-reveal").mouseleave(function(){
+        $("#abrir6").click();
+    });
 
 
 

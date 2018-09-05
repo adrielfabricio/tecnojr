@@ -104,6 +104,9 @@ nav{
 #parallax-sobrenos{
 	height: 200px;
 }
+
+
+/* ================ Serviços =============== */
 #hr-servico-left{
 	margin-top: 20px;
 	width: 30%;
@@ -113,6 +116,14 @@ nav{
 	border: 1px	solid #FFFF;
 	width: 30%;
 	margin-top: 20px;
+}
+.card{
+	background-color: rgba(255,255,255,0);
+	box-shadow: none;
+}
+.card .card-title{
+	font-size: 28px;
+	margin-top: -10px;
 }
 /* ================ FOOTER ================  */
 
