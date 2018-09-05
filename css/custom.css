@@ -125,6 +125,35 @@ nav{
 	font-size: 28px;
 	margin-top: -10px;
 }
+#hr-end-servico{
+	border: 1px	solid #FFFF;
+	
+}
+/* ================ o que procura? ================= */
+.parallax-container .parallax img{
+	z-index: -1;
+	filter: brightness(43%)
+}
+#parallax-oqueprocura{
+	height: 200px;
+	margin-top: 30px;
+	z-index: 1;
+}
+.collapsible{
+	border: none;
+}
+.collapsible-header{
+	background-color: #3D3D3D;.
+	width: 30%;
+}
+.collapsible-body{
+	border: none;
+	background-color: white;
+}
+.icon-duvida{
+	font-size: 120px;
+	color: #2B8FC4; 
+}
 /* ================ FOOTER ================  */
 
 .page-footer{

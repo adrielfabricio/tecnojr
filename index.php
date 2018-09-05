@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-	<?php require_once 'include/head.php'?>
+	<?php require_once 'include/head.php' ?>
 	<body>
 		<?php require_once 'include/header.php' ?>
 		<main>
@@ -40,43 +40,111 @@
 										
 						
 					<div class="card col s12 m4 l4 ">
-						<div class="card-image waves-effect waves-block waves-light ">
+						<div class="card-image waves-effect waves-block waves-light card1">
 							<img class="activator responsive-img  circle" src="img/internet.png">
 						</div>
-						<div class="card-content card1 ">
-							<span id="abrir1" class="card-title activator white-text ">Website</span>
-						</div>
-						<div class="card-reveal">
-							<span id="abrir2" class="card-title ">Website</span>
-							<p>Utilizado em divulgações. É informativo e tem o intuito de chegar a um público maior.</p>
+						<div class="card-content  ">
+							<span  class="card-title activator white-text ">Website</span>
 						</div>
 					</div>
 					<div class="card col s12 m4 l4 ">
-						<div class="card-image waves-effect waves-block waves-light ">
+						<div class="card-image waves-effect waves-block waves-light card2">
 							<img class="activator responsive-img circle" src="img/sistemas.png">
 						</div>
-						<div class="card-content card2 ">
-							<span id="abrir3" class="card-title activator white-text ">Sistemas Web</span>
-						</div>
-						<div class="card-reveal">
-							<span id="abrir4" class="card-title ">Sistemas Web</span>
-							<p>Utilizado em divulgações. É informativo e tem o intuito de chegar a um público maior.</p>
+						<div class="card-content  ">
+							<span class="card-title activator white-text ">Sistemas Web</span>
 						</div>
 					</div>
 					<div class="card col s12 m4 l4 ">
-						<div class="card-image waves-effect waves-block waves-light ">
+						<div class="card-image waves-effect waves-block waves-light card3">
 							<img class="activator responsive-img circle" src="img/internet.png">
 						</div>
-						<div class="card-content card3 ">
-						<span id="abrir5" class="card-title activator white-text ">Hospedagem de Sites</span>
-						</div>
-						<div class="card-reveal">
-							<span id="abrir6" class="card-title ">Website</span>
-							<p>Utilizado em divulgações. É informativo e tem o intuito de chegar a um público maior.</p>
+						<div class="card-content  ">
+						<span class="card-title activator white-text ">Hospedagem de Sites</span>
 						</div>
 					</div>
+					<div class="col s12"><hr id="hr-end-servico"></div>
 				</div>
-				
+			</div>
+
+
+			<ul class="collapsible">
+				<li>
+					<div class="collapsible-header parallax-container " id="parallax-oqueprocura">
+						<div class="parallax">
+							<img src="img/cod-font.jpeg">
+						</div>
+						<div class="row center">
+							<h2 class="white-text">Duvidas no que procura?</h2>
+							<div class="waves-effect waves-light btn-large ">
+								<i class="fa fa-hand-pointer-o left"></i>Clique aqui
+							</div>
+						</div>
+					</div>
+					<div class="collapsible-body">
+						<div class="row">
+							<div class="col s12 m3 l3">
+								<div class="card">
+							        <div class="card-image center">
+							        	<i class="fa fa-wordpress icon-duvida"></i>
+							        </div>
+							        <div class="card-content">
+								        <span class="card-title center">Wordpress</span>
+								        <p>
+								        	Solução perfeita para pessoas que desejam realizar publicações constantemente no site. Além de ter uma interface administrativa fácil de ser manipulada, possui uma grande capacidade plugins e acessórios que poderá ser adicionado pelo cliente.
+								        </p>
+							        </div>
+        						</div>
+							</div>
+							<div class="col s12 m3 l3">
+								<div class="card">
+							        <div class="card-image center">
+							        	<i class="fa fa-laptop icon-duvida"></i>
+							        </div>
+							        <div class="card-content">
+								        <span class="card-title center">Site informativo</span>
+								        <p>
+								        	Com o objetivo de divulgar seus serviços ou eventos, o site informativo veio para propagar essas informações através da internet, expandindo cada vez mais seu negócio ou evento. 
+								        </p>
+							        </div>
+        						</div>
+							</div>
+							<div class="col s12 m3 l3">
+								<div class="card">
+							        <div class="card-image center">
+							        	<i class="fa fa-cogs icon-duvida"></i>
+							        </div>
+							        <div class="card-content">
+								        <span class="card-title center">Sistemas Web</span>
+								        <p>
+								        	Se seu objetivo é automatizar as informações de sua empresa e ter acesso a elas em qualquer aparelho, seja computador, celular ou tablet, essa é a melhor opção. Com um sistema web você pode fazer controle de estoque, caixa, funcionários, dentre várias outras coisas que fazem parte de sua empresa ou comercio.  
+								        </p>
+							        </div>
+        						</div>
+							</div>
+							<div class="col s12 m3 l3">
+								<div class="card">
+							        <div class="card-image center">
+							        	<i class="fa fa-sellsy icon-duvida"></i>
+							        </div>
+							        <div class="card-content">
+								        <span class="card-title center">Hospedagem</span>
+								        <p>
+								        	Para aqueles que possuem site ou sistema pronto, mas não possuem servidor para armazená-lo. A hospedagem em nosso servidor garante segurança, conexão 24 horas e backup do material hospedado.
+								        </p>
+							        </div>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="carousel">
+				<a class="carousel-item" href="#one!"><img src="img/internet.png"></a>
+				<a class="carousel-item" href="#two!"><img src="img/internet.png"></a>
+				<a class="carousel-item" href="#three!"><img src="img/internet.png"></a>
+				<a class="carousel-item" href="#four!"><img src="img/internet.png"></a>
+				<a class="carousel-item" href="#five!"><img src="img/internet.png"></a>
 			</div>
 		</main>
 		<?php require_once 'include/footer.php' ?>

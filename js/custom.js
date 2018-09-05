@@ -5,28 +5,9 @@ $(document).ready(function(){
         $('html,body').animate({scrollTop:$(this.hash).offset().top - 55}, 1000);
     });
     $('.parallax').parallax();
+    $('.collapsible').collapsible();
+    $('.carousel').carousel();
     
-    $(".card1").mouseover(function(){
-    	$("#abrir1").click();
-    });
-    $(".card-reveal").mouseleave(function(){
-        $("#abrir2").click();
-    });
-    $(".card2").mouseover(function(){
-    	$("#abrir3").click();
-    });
-    $(".card-reveal").mouseleave(function(){
-        $("#abrir4").click();
-    });
-    $(".card3").mouseover(function(){
-    	$("#abrir5").click();
-    });
-    $(".card-reveal").mouseleave(function(){
-        $("#abrir6").click();
-    });
-
-
-
  });
 // estava na index
 function scroll(){
