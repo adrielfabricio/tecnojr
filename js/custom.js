@@ -6,7 +6,11 @@ $(document).ready(function(){
     });
     $('.parallax').parallax();
     $('.collapsible').collapsible();
-    $('.carousel').carousel();
+    $('.carousel').carousel({
+    	dist:0,
+    	numVisible: 4,
+    	padding: 80
+    });
     
  });
 // estava na index

@@ -2,7 +2,12 @@
 
 	<div class="footer-copyright">
 		<div class="container">
-			<span>© 2018 Desenvolvido com muito <i class="fa fa-heart colorbluesite-text"></i> e <i class="fa fa-coffee colorbluesite-text"></i> pela <a target="_blank" class="colorbluesite-text" href="https://tecnojr.com.br">TecnoJr</a>. All rights reserved.</span>
+			<span>© 2018 Desenvolvido com muito <i class="fa fa-heart colorbluesite-text"></i> e <i class="fa fa-coffee colorbluesite-text"></i> pela <a target="_blank" class="colorbluesite-text" href="https://tecnojr.com.br">TecnoJr</a>. All rights reserved.</span> 
+			<div class="right">
+							<a href="https://www.facebook.com/tecnojr/"><i class="fa fa-facebook-square colorbluesite-text icon-footer "></i></a>
+							<a href="https://www.instagram.com/tecnojr/"><i class="fa fa-instagram colorbluesite-text icon-footer "></i></a>
+							<a href="https://github.com/tecnojr-uesc"><i class="	fa fa-github colorbluesite-text icon-footer "></i></a>
+						</div>
 		</div>
 	</div>
 

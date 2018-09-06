@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 
-<html>
+<html lang=”pt-br”>
 	<?php require_once 'include/head.php' ?>
 	<body>
 		<?php require_once 'include/header.php' ?>
 		<main>
-			<div id="sobrenos" class="center row">
+			<div id="sobrenos" class="center row ">
 				<div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
-					<h4 id="sobrenos-title" class="colorblacksite-text">
+					<h3 id="sobrenos-title" class="colorblacksite-text">
 						<hr id="hr-title-left"  class="col s2 m3 l3 left">
 						Sobre nós
 						<hr id="hr-title-right" class="col s2 m3 l3 right">
-					</h4>
+					</h3>
 										
 					<div class="col s12 m4 l4 colorblacksite-text right">
 						<img id="sobrenos-img" src="img/ex1.jpg" alt="">
 					</div>
-						<p class="col s12 m8 l8 colorblacksite-text" id="sobrenos-content">
-							Fundada em 2002, a Empresa TecnoJr é voltada para o curso de Ciência da Computação da Universidade Estadual de Santa Cruz (UESC). Desde então, vem atuando na área de desenvolvimento de sistemas e pessoas, melhorando cada vez mais os alunos que passam pela empresa. Atualmente é constituida por 28 membros. 
-						</p>
-						<div id="hr-end-sobre" class="col s12"><hr id="hr-down"></div>
+					<p class="col s12 m8 l8 colorblacksite-text " id="sobrenos-content">
+						Fundada em 2002, a Empresa TecnoJr é voltada para o curso de Ciência da Computação da Universidade Estadual de Santa Cruz (UESC). Desde então, vem atuando na área de desenvolvimento de sistemas e pessoas, melhorando cada vez mais os alunos que passam pela empresa. Atualmente é constituida por 28 membros. 
+					</p>
+					<div id="hr-end-sobre" class="col s12"><hr id="hr-down"></div>
+					<div class="col s12 m4 l4">
+						<div class="card">
+							<div class="card-image">
+								<i class="material-icons large colorbluesite-background">assistant_photo</i>
+							</div>
+							<h3>Missão</h3>
+							<div class="card-content">
+								<p>I am a very simple card. I am good at containing small bits of information.
+								I am convenient because I require little markup to use effectively.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m4 l4">
+						<div class="card">
+							<div class="card-image">
+								<i class="fa fa-child large colorbluesite-background"></i>
+							</div>
+							<h3>Valor</h3>
+							<div class="card-content">
+								<p>I am a very simple card. I am good at containing small bits of information.
+								I am convenient because I require little markup to use effectively.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m4 l4">
+						<div class="card">
+							<div class="card-image">
+								<i class="	fa fa-eye large colorbluesite-background"></i>
+							</div>
+							<h3 class="">Visão</h3>
+							<div class="card-content">
+								<p>I am a very simple card. I am good at containing small bits of information.
+								I am convenient because I require little markup to use effectively.</p>
+							</div>
+						</div>
+					</div>
+							
 				</div>
 			</div>
 			
@@ -32,11 +69,11 @@
 
 			<div id="servicos" class="center row">
 				<div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
-					<h4 id="sobrenos-title" class="white-text">
+					<h3 id="sobrenos-title" class="white-text">
 						<hr id="hr-servico-left" class="col s2 m3 l3 left">
 						Serviços
 						<hr id="hr-servico-right" class="col s2 m3 l3 right">
-					</h4>
+					</h3>
 										
 						
 					<div class="card col s12 m4 l4 ">
@@ -139,12 +176,31 @@
 					</div>
 				</li>
 			</ul>
-			<div class="carousel">
-				<a class="carousel-item" href="#one!"><img src="img/internet.png"></a>
-				<a class="carousel-item" href="#two!"><img src="img/internet.png"></a>
-				<a class="carousel-item" href="#three!"><img src="img/internet.png"></a>
-				<a class="carousel-item" href="#four!"><img src="img/internet.png"></a>
-				<a class="carousel-item" href="#five!"><img src="img/internet.png"></a>
+			<div class="row container">
+				<h3 id="parceiros-title" class="white-text center">
+						<hr id="hr-servico-left" class="col s2 m3 l3 left">
+						Parceiros
+						<hr id="hr-servico-right" class="col s2 m3 l3 right">
+				</3>
+				<div class="carousel">
+					<a class="carousel-item" href="#one!"><img src="img/internet.png"></a>
+					<a class="carousel-item" href="#two!"><img src="img/internet.png"></a>
+					<a class="carousel-item" href="#three!"><img src="img/internet.png"></a>
+					<a class="carousel-item" href="#three!"><img src="img/internet.png"></a>
+					<a class="carousel-item" href="#three!"><img src="img/internet.png"></a>
+
+				</div>
+				<div class="col s12"><hr id="hr-end-parceiros"></div>
+			</div>
+			<div id="div-contato" class="row">
+				<?php require_once 'view/contato.php' ?>	
+				<div id="info" class="col s12 m6 l6 left">
+						<i class="material-icons colorbluesite-text icon-contato left">location_on</i>
+						<h5 class="info-date">Campus Soane Nazaré de Andrade, Rodovia Jorge Amado, km 16, S/N, Bairro Salobrinho, Ilhéus</h5>
+						<i class="material-icons colorbluesite-text icon-contato left">phone</i><h5 class="info-date">(73) 3680-5389</h5>
+						<i class="material-icons colorbluesite-text icon-contato left">mail</i><h5 class="info-date">contato@tecnojr.com.br</h5>
+						
+				</div>
 			</div>
 		</main>
 		<?php require_once 'include/footer.php' ?>

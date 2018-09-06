@@ -1,5 +1,6 @@
 <head>
     <title>TecnoJr</title>
+    <meta charset=”UTF-8”>
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
     <!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
