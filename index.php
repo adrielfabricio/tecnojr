@@ -13,56 +13,60 @@
 						<hr id="hr-title-right" class="col s2 m3 l3 right">
 					</h3>
 										
-					<div class="col s12 m4 l4 colorblacksite-text right">
-						<img id="sobrenos-img" src="img/ex1.jpg" alt="">
-					</div>
-					<p class="col s12 m8 l8 colorblacksite-text " id="sobrenos-content">
+					
+					<p class="col s12 m12 l12 colorblacksite-text " id="sobrenos-content">
 						Fundada em 2002, a Empresa TecnoJr é voltada para o curso de Ciência da Computação da Universidade Estadual de Santa Cruz (UESC). Desde então, vem atuando na área de desenvolvimento de sistemas e pessoas, melhorando cada vez mais os alunos que passam pela empresa. Atualmente é constituida por 28 membros. 
 					</p>
-					<div id="hr-end-sobre" class="col s12"><hr id="hr-down"></div>
-					<div class="col s12 m4 l4">
-						<div class="card">
-							<div class="card-image">
-								<i class="material-icons large colorbluesite-background">assistant_photo</i>
+					<div id="hr-end-sobre" class="col s12"><hr class="hr-down"></div>
+					<div id="cards-sobre">
+						<div id="card1"	class="col s12 m12 l4 z-depth-3 card-box">
+							<div class="card ">
+								<div class="card-image">
+									<i class="fa fa-flag-o large colorbluesite-background"></i>
+								</div>
+								<h3>Missão</h3>
+								<div class="card-content">
+									<p>
+										Capacitar seus membros para oferecer produtos e serviços de qualidade, promovendo a integração com a universidade e o mercado de trabalho, despertando o espírito empreendedor e disseminando o Movimento Empresa Júnior
+									</p>
+								</div>
 							</div>
-							<h3>Missão</h3>
-							<div class="card-content">
-								<p>I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.</p>
+						</div>
+						<div id="card2" class="col s12 m12 l4 z-depth-3 card-box">
+							<div class="card">
+								<div class="card-image">
+									<i class="fa fa-child large colorbluesite-background"></i>
+								</div>
+								<h3>Valor</h3>
+								<div class="card-content">
+									<p>
+										Empreendedorismo, Inovação, Transparência, Sinergia e Orgulho de ser Tecno
+									</p>
+								</div>
+							</div>
+						</div>
+						<div id="card3" class="col s12 m12 l4 z-depth-3 card-box">
+							<div class="card">
+								<div class="card-image">
+									<i class="	fa fa-group large colorbluesite-background"></i>
+								</div>
+								<h3 class="">Visão</h3>
+								<div class="card-content">
+									<p>
+										Ser reconhecida pela excelência na prestação de serviços e tornar-se a melhor empresa júnior brasileira de TI
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col s12 m4 l4">
-						<div class="card">
-							<div class="card-image">
-								<i class="fa fa-child large colorbluesite-background"></i>
-							</div>
-							<h3>Valor</h3>
-							<div class="card-content">
-								<p>I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m4 l4">
-						<div class="card">
-							<div class="card-image">
-								<i class="	fa fa-eye large colorbluesite-background"></i>
-							</div>
-							<h3 class="">Visão</h3>
-							<div class="card-content">
-								<p>I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.</p>
-							</div>
-						</div>
-					</div>
+					<div id="hr-end-sobre" class="col s12"><hr class="hr-down"></div>
 							
 				</div>
 			</div>
 			
 			<div class="parallax-container" id="parallax-sobrenos">
 				<div class="parallax">
-					<img src="img/cod-font.jpeg">
+					<img src="img/empresa2.jpg">
 				</div>
 			</div>
 			
@@ -74,31 +78,18 @@
 						Serviços
 						<hr id="hr-servico-right" class="col s2 m3 l3 right">
 					</h3>
-										
 						
-					<div class="card col s12 m4 l4 ">
-						<div class="card-image waves-effect waves-block waves-light card1">
-							<img class="activator responsive-img  circle" src="img/internet.png">
-						</div>
-						<div class="card-content  ">
+					<div class="col s12 m4 l4  box-servico">
+							<img class="activator responsive-img " src="img/internet.png">
 							<span  class="card-title activator white-text ">Website</span>
-						</div>
 					</div>
-					<div class="card col s12 m4 l4 ">
-						<div class="card-image waves-effect waves-block waves-light card2">
-							<img class="activator responsive-img circle" src="img/sistemas.png">
-						</div>
-						<div class="card-content  ">
+					<div class="col s12 m4 l4  box-servico">
+							<img class="activator responsive-img" src="img/3a1.png">
 							<span class="card-title activator white-text ">Sistemas Web</span>
-						</div>
 					</div>
-					<div class="card col s12 m4 l4 ">
-						<div class="card-image waves-effect waves-block waves-light card3">
-							<img class="activator responsive-img circle" src="img/internet.png">
-						</div>
-						<div class="card-content  ">
+					<div class="col s12 m4 l4  box-servico">
+							<img class="activator responsive-img " src="img/bd-clound1.png">
 						<span class="card-title activator white-text ">Hospedagem de Sites</span>
-						</div>
 					</div>
 					<div class="col s12"><hr id="hr-end-servico"></div>
 				</div>
@@ -109,7 +100,7 @@
 				<li>
 					<div class="collapsible-header parallax-container " id="parallax-oqueprocura">
 						<div class="parallax">
-							<img src="img/cod-font.jpeg">
+							<img src="img/empresa3.jpg">
 						</div>
 						<div class="row center">
 							<h2 class="white-text">Duvidas no que procura?</h2>
@@ -194,7 +185,7 @@
 			</div>
 			<div id="div-contato" class="row">
 				<?php require_once 'view/contato.php' ?>	
-				<div id="info" class="col s12 m6 l6 left">
+				<div id="info" class="container col s12 m5 l5 z-depth-3 ">
 						<i class="material-icons colorbluesite-text icon-contato left">location_on</i>
 						<h5 class="info-date">Campus Soane Nazaré de Andrade, Rodovia Jorge Amado, km 16, S/N, Bairro Salobrinho, Ilhéus</h5>
 						<i class="material-icons colorbluesite-text icon-contato left">phone</i><h5 class="info-date">(73) 3680-5389</h5>

@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
     $(".scroll").click(function(event){        
         event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top - 55}, 1000);
+        $('html,body').animate({scrollTop:$(this.hash).offset().top - 65}, 1500);
     });
     $('.parallax').parallax();
     $('.collapsible').collapsible();
@@ -11,7 +11,38 @@ $(document).ready(function(){
     	numVisible: 4,
     	padding: 80
     });
-    
+	// Faz o navbar ficar fixo ou não 
+    $(window).scroll(function(){
+    	if($(window).scrollTop() > 580){
+    		$('.navbar-fixed nav').css('position', 'fixed');
+    	}
+    	if($(window).scrollTop() < 580){
+    		$('.navbar-fixed nav').css('position', 'relative');
+    	}
+
+    });
+    //Aplicar um hover nos card de sobre nós
+    $('.z-depth-3').hover(
+    	function () {
+    		$(this).addClass("z-depth-5");
+    		// $(this, ".box-servico").css("background-color", "white");
+    	},
+    	function () {
+    		$(this).removeClass("z-depth-5");
+    		// $(this, ".box-servico").css("background-color", "#3D3D3D");
+    	}
+    );
+    $('.box-servico').hover(
+    	function () {
+    		$(this).addClass("z-depth-5");
+    		// $(this, ".box-servico").css("background-color", "white");
+    	},
+    	function () {
+    		$(this).removeClass("z-depth-5");
+    		// $(this, ".box-servico").css("background-color", "#3D3D3D");
+    	}
+    );
+
  });
 // estava na index
 function scroll(){

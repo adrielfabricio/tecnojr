@@ -62,10 +62,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		
 
 
-			<div class="inverted center-align">
+			<div class="center-align">
 				<h3>Contato</h3>
 			</div>
-			<div class="col s12 m6 l6">
+			<div class="col s12 m6 l6 ">
 				<?php
 				if ($p && (isset($envio) && $envio))
 				{

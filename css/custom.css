@@ -50,18 +50,26 @@ nav{
 	border-right: 60px solid transparent;
 	border-bottom: 30px solid #3D3D3D;
 }
-
+.sticky-nav{
+	top: 0;
+}
+.navbar-fixed nav{
+	position: relative;
+}
+.sidenav{
+	z-index: 999;
+}
+.sidenav-overlay{
+	z-index: 996;
+}
 /* ================ HEADER ================  */
 #header{
     z-index: -1;
     background-color: #2B8FC4;
     width: 100%;
     min-height: 100%;
-    height: 585px;
+    height: 615px;
 }
-
-
-
 
 
 /* ================ SOBRE NOS ================  */
@@ -74,20 +82,20 @@ nav{
 #hr-title-left{
 	margin-top: 20px;
 	width: 30%;
-	border: 1px	solid #3D3D3D;
+	border: 2px	solid #3D3D3D;
 }
 #hr-title-right{
-	border: 1px	solid #3D3D3D;
+	border: 2px	solid #3D3D3D;
 	width: 30%;
 	margin-top: 20px;
 }
 
 #sobrenos-title{
 	margin-left: 0;
-	margin-top: 0px;
-	margin-bottom: 80px;
+	margin-top: 10px;
+	margin-bottom: 60px;
 	position: relative;
-	top: 40px;
+	top: 30px;
 }
 #sobrenos-content{
 	font-size: 18px;
@@ -97,15 +105,24 @@ nav{
 	width: 300px;
 }
 
-#hr-down{
-	border: 1px	solid #3D3D3D;
+.hr-down{
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#cards-sobre{
 }
 #parallax-sobrenos{
 	height: 200px;
 }
-
+.card-box{
+	height: 380px;
+}
 
 /* ================ Serviços =============== */
+#servicos{
+	height: 600px;
+}
 #hr-servico-left{
 	margin-top: 20px;
 	width: 30%;
@@ -125,13 +142,17 @@ nav{
 	margin-top: -10px;
 }
 #hr-end-servico{
+	margin-top: 40px;
 	border: 1px	solid #FFFF;
-	
 }
+.box-servico{
+	background-color: #3D3D3D;
+}
+
 /* ================ o que procura? ================= */
 .parallax-container .parallax img{
 	z-index: -1;
-	filter: brightness(43%)
+	filter: brightness(20%)
 }
 #parallax-oqueprocura{
 	height: 200px;
@@ -144,6 +165,7 @@ nav{
 .collapsible-header{
 	background-color: #3D3D3D;.
 	width: 30%;
+	border: none;
 }
 .collapsible-body{
 	border: none;
@@ -167,10 +189,12 @@ nav{
 #div-contato{
 	margin-top: 10px;
 	width: 100%;
+	height: 520px;
 	background-color: white;
 }
 #info{
 	margin-top: 80px;
+	margin-left: 60px;
 }
 .btn, .btn-large, .btn-small{
 	background-color: #2B8FC4;
