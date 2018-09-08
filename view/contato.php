@@ -63,6 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 
 			<div class="center-align">
+				<br>
 				<h3>Contato</h3>
 			</div>
 			<div class="col s12 m6 l6 ">
@@ -95,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 				?>
 
 				<form class="col s12" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-					<div class="row">
+					<div class="row reveal1">
 
 						
 
