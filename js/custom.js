@@ -7,6 +7,12 @@ $(document).ready(function(){
     	numVisible: 4,
     	padding: 80
     });
+    $('.slider').slider({
+    	indicators: false,
+    	height: 600,
+    	duration: 600,
+    	interval: 6000
+    });
     //Realiza o scroll devagar
     $(".scroll").click(function(event){        
         event.preventDefault();

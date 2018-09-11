@@ -67,34 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 				<h3>Contato</h3>
 			</div>
 			<div class="col s12 m6 l6 ">
-				<?php
-				if ($p && (isset($envio) && $envio))
-				{
-					echo "<div class='row'>
-					<div class='col s12'>
-					<div class='card-panel green'>
-					<p class='white-text'><i class='material-icons left'>check_circle</i>Mensagem enviada com sucesso!
-					</p>
-					</div>
-					</div>
-					</div>";
-					//echo "<script>M.toast({html: '<span class=\'green-text\'>I am a toast!</span>'})</script>";
-					unset($data);
-					echo "<meta http-equiv='refresh' content='3'>";
-				}
-				elseif ($p && (isset($envio) && !$envio))
-				{
-					echo "<div class='row'>
-					<div class='col s12'>
-					<div class='card-panel red'>
-					<p class='white-text'><i class='material-icons left'>sync_problem</i>Falha ao enviar a mensagem.
-					</p>
-					</div>
-					</div>
-					</div>";
-				}
-				?>
-
+				
 				<form class="col s12" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 					<div class="row reveal1">
 
