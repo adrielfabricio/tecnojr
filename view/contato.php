@@ -32,13 +32,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		
 		$from = "no-reply@tecnojr.com.br";
 
-		// Mensagem p/ cliente
-		if (mail($to, $subject, $message, $headers, "-r".$from)){
-			alert("Mensagem enviada com sucesso");
-		} else {
-			alert("Erro ao enviar menssagem");
-		}
-		
 		// Mensagem p/ tecno
 		$to 	  = "contato@tecnojr.com.br";
 		$subject  = "[".$data['opcao']."] ".$data['assunto'];
@@ -48,6 +41,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		$headers .= "From: $from\r\n"; // remetente
 		$headers .= "Return-Path: $from\r\n"; // return-path
 		$envio = mail($to, $subject, $message, $headers, "-r".$from);
+
+		// Mensagem p/ cliente
+		if ($envio){
+			alert("Mensagem enviada com sucesso");
+		} else {
+			alert("Erro ao enviar menssagem");
+		}	
+		
 	}
 }
 
