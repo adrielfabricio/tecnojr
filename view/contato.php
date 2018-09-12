@@ -54,10 +54,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 ?>
 <div class="center-align">
 	<br>
-	<h3>Contato</h3>
+	<h3 id="title-contato">Contato</h3>
 </div>
 
-<div class="col s12 m6 l6 ">
+<div id="form-contato" class="col s12 m12 l6  ">
 	<form class="col s12" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 		<div class="row reveal1">
 			<div class="input-field col m6 l12 s12">

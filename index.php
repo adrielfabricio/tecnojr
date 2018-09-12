@@ -20,12 +20,12 @@
 					<div id="hr-end-sobre" class="col s12"><hr class="hr-down"></div>
 					<div id="cards-sobre">
 
-						<div id="card1"	class="col s12 m12 l4 z-depth-3 card-box reveal1">
+						<div id="card1"	class="card-box col s12 m12 l4 z-depth-3 reveal1">
 							<div class="card ">
 								<div class="card-image">
 									<i class="fa fa-flag-o large colorbluesite-background"></i>
 								</div>
-								<h3>Missão</h3>
+								<h3 class="subtitle-sobrenos">Missão</h3>
 								<div class="card-content">
 									<p>
 										Capacitar seus membros para oferecer produtos e serviços de qualidade, promovendo a integração com a universidade e o mercado de trabalho, despertando o espírito empreendedor e disseminando o Movimento Empresa Júnior
@@ -33,12 +33,12 @@
 								</div>
 							</div>
 						</div>
-						<div id="card2" class="col s12 m12 l4 z-depth-3 card-box reveal2">
+						<div id="card2" class="card-box col s12 m12 l4 z-depth-3 reveal1">
 							<div class="card">
 								<div class="card-image">
 									<i class="fa fa-child large colorbluesite-background"></i>
 								</div>
-								<h3>Valor</h3>
+								<h3 >Valor</h3>
 								<div class="card-content">
 									<p>
 										Empreendedorismo, Inovação, Transparência, Sinergia e Orgulho de ser Tecno
@@ -46,12 +46,12 @@
 								</div>
 							</div>
 						</div>
-						<div id="card3" class="col s12 m12 l4 z-depth-3 card-box reveal3">
+						<div id="card3" class="card-box col s12 m12 l4 z-depth-3 reveal1">
 							<div class="card">
 								<div class="card-image">
 									<i class="	fa fa-group large colorbluesite-background"></i>
 								</div>
-								<h3 class="">Visão</h3>
+								<h3 >Visão</h3>
 								<div class="card-content">
 									<p>
 										Ser reconhecida pela excelência na prestação de serviços e tornar-se a melhor empresa júnior brasileira de TI
@@ -80,24 +80,25 @@
 						<hr id="hr-servico-right" class="col s2 m3 l3 right">
 					</h3>
 						
-					<div class="col s6 m3 l3 reveal1 ">
+					<div class="col s12 m6 l3 reveal1 ">
 							<i class="fa fa-television icon-servico box-servico circle center"></i>
 							<h5  class="card-title activator colorblacksite-text ">Website</h5>
 					</div>
-					<div class="col s6 m3 l3 reveal1">
+					<div class="col s12 m6 l3 reveal1">
 							<i class="fa fa-cogs icon-servico box-servico circle center"></i>
 							<h5 class="card-title activator colorblacksite-text ">Sistemas Web</h5>
 					</div>
-					<div class="col s6 m3 l3 reveal1 ">
+					<div class="col s12 m6 l3 reveal1 ">
 							<i class="fa fa-cloud-upload icon-servico box-servico circle center"></i>
 						<h5 class="card-title activator colorblacksite-text ">Hospedagem de Sites</h5>
 					</div>
-					<div class="col s6 m3 l3 reveal1 ">
+					<div class="col s12 m6 l3 reveal1 ">
 							<i class="fa fa-wrench icon-servico box-servico circle center"></i>
 						<h5 class="card-title activator colorblacksite-text ">Manutenção de Sites</h5>
 					</div>
-					<div></div>
-					<div class="col s12"><hr id="hr-end-servico"></div>
+					<div id="slogan-servico" class="col s12">
+						<h4 class="reveal1">"Serviços com preço a baixo do mercado de trabalho e com qualidade superior"</h4>
+					</div>	
 				</div>
 			</div>
 
@@ -117,7 +118,7 @@
 					</div>
 					<div class="collapsible-body">
 						<div class="row">
-							<div class="col s12 m3 l3 reveal1">
+							<div class="col s12 m12 l3 reveal1">
 								<div class="card">
 							        <div class="card-image center">
 							        	<i class="fa fa-wordpress icon-duvida"></i>
@@ -130,40 +131,40 @@
 							        </div>
         						</div>
 							</div>
-							<div class="col s12 m3 l3 reveal1">
+							<div class="col s12 m12 l3 reveal1">
 								<div class="card">
 							        <div class="card-image center">
 							        	<i class="fa fa-laptop icon-duvida"></i>
 							        </div>
 							        <div class="card-content">
 								        <span class="card-title center">Site informativo</span>
-								        <p class="center">
+								        <p class="card-sobrenos center">
 								        	Com o objetivo de divulgar seus serviços ou eventos, o site informativo veio para propagar essas informações através da internet, expandindo cada vez mais seu negócio ou evento. 
 								        </p>
 							        </div>
         						</div>
 							</div>
-							<div class="col s12 m3 l3 reveal1">
+							<div class="col s12 m12 l3 reveal1">
 								<div class="card">
 							        <div class="card-image center">
 							        	<i class="fa fa-cogs icon-duvida"></i>
 							        </div>
 							        <div class="card-content">
 								        <span class="card-title center">Sistemas Web</span>
-								        <p class="center">
+								        <p class="card-sobrenos center">
 								        	Se seu objetivo é automatizar as informações de sua empresa e ter acesso a elas em qualquer aparelho, seja computador, celular ou tablet, essa é a melhor opção. Com um sistema web você pode fazer controle de estoque, caixa, funcionários, dentre várias outras coisas que fazem parte de sua empresa ou comercio.  
 								        </p>
 							        </div>
         						</div>
 							</div>
-							<div class="col s12 m3 l3 reveal1">
+							<div class="col s12 m12 l3 reveal1">
 								<div class="card">
 							        <div class="card-image center">
 							        	<i class="fa fa-sellsy icon-duvida"></i>
 							        </div>
 							        <div class="card-content">
 								        <span class="card-title center">Hospedagem</span>
-								        <p class="center"> 
+								        <p class="card-sobrenos center"> 
 								        	Para aqueles que possuem site ou sistema pronto, mas não possuem servidor para armazená-lo. A hospedagem em nosso servidor garante segurança, conexão 24 horas e backup do material hospedado.
 								        </p>
 							        </div>
@@ -175,9 +176,7 @@
 			</ul>
 			<div class="row container">
 				<h3 id="parceiros-title" class="white-text center">
-						<hr id="hr-servico-left" class="col s2 m3 l3 left">
 						Parceiros
-						<hr id="hr-servico-right" class="col s2 m3 l3 right">
 				</3>
 				<div class="col s12"><hr id="hr-start-parceiros"></div>
 				<div class="carousel">
@@ -192,7 +191,7 @@
 			</div>
 			<div id="div-contato" class="row">
 				<?php require_once 'view/contato.php' ?>	
-				<div id="info" class="container col s10 m5 l5 offset-s1 z-depth-3 reveal3">
+				<div id="info" class="container col s10 m10 l5 offset-s1 offset-m1 z-depth-3 reveal1">
 						<i class="material-icons colorbluesite-text icon-contato left">location_on</i>
 						<h5 class="info-date">Campus Soane Nazaré de Andrade, Rodovia Jorge Amado, km 16, S/N, Bairro Salobrinho, Ilhéus</h5>
 						<i class="material-icons colorbluesite-text icon-contato left">phone</i><h5 class="info-date">(73) 3680-5389</h5>

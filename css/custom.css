@@ -33,206 +33,25 @@ main {
 .reveal1, .reveal2, .reveal3{
 	opacity: 0;
 }
-
+.parallax-container .parallax img{
+	z-index: -1;
+	filter: brightness(20%);
+}
+.btn, .btn-large, .btn-small{
+	background-color: #2B8FC4;
+}
+.sidenav{
+	z-index: 999;
+}
+.sidenav-overlay{
+	z-index: 996;
+}
 /* ================ NAVBAR ================  */
 nav{
 	background-color: black;
 }
-
-@media screen and (max-width: 601px) {
-	/* ================ NAVBAR ================  */
-	#navbar{
-		border-top: 0;
-		box-shadow: 0 5px 4px rgba(22, 22, 22,.3);
-	}
-	#logo{
-		width: 150px;
-		margin-top: 10px;
-	}
-
-	#triangle-up {
-		margin: 0 auto;
-		width: 0;
-		height: 0;
-		border-left: 60px solid transparent;
-		border-right: 60px solid transparent;
-		border-bottom: 30px solid black;
-	}
-	/* ================ HEADER ================  */
-	#header{
-	    z-index: -1;
-	    background-color: #2B8FC4;
-	    width: 100%;
-	    min-height: 100%;
-	    height: 90vh;
-	}
-
-
-	/* ================ SOBRE NOS ================  */
-	#sobrenos{
-		height: 1480px;
-		background-color: white;
-		margin: 0;
-		padding-bottom: 10px;
-	}
-	#hr-title-left{
-		margin-top: 20px;
-		width: 20%;
-		border: 2px	solid black;
-	}
-	#hr-title-right{
-		border: 2px	solid black;
-		width: 20%;
-		margin-top: 20px;
-	}
-	#sobrenos-title{
-		margin-left: 0;
-		margin-top: 10px;
-		position: relative;
-		top: 30px;
-	}
-	#sobrenos-content{
-		font-size: 18px;
-		text-align: justify;
-	}
-	.hr-down{
-		border: none;
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
-
-	#parallax-sobrenos{
-		height: 200px;
-	}
-	.card-box{
-		margin-top: 20px;
-		height: 330px;
-	}
-
-	/* ================ Serviços =============== */
-	#servicos{
-		height: 1000px;
-		background-color: #ffff;
-		margin: 0;
-	}
-	#hr-servico-left{
-		margin-top: 20px;
-		width: 20%;
-		border: 2px	solid black;
-	}
-	#hr-servico-right{
-		border: 2px	solid black;
-		width: 20%;
-		margin-top: 20px;
-	}
-	.responsive-img{
-		width: 200px;
-	}
-	.card{
-		background-color: rgba(255,255,255,0);
-		box-shadow: none;
-	}
-	.card .card-title{
-		font-size: 28px;
-	}
-	#hr-end-servico{
-		margin-top: 40px;
-		border: 1px	solid black;
-	}
-	.box-servico{
-		margin-top: 20px;
-		background-color: #ffff;
-	}
-
-	/* ================ o que procura? ================= */
-	.parallax-container .parallax img{
-		z-index: -1;
-		filter: brightness(20%);
-		margin-top: 0;
-	}
-	#parallax-oqueprocura{
-		height: 240px;
-		z-index: 1;
-	}
-	.collapsible{
-		border: none;
-		margin: 0;
-	}
-	.collapsible-header{
-		background-color: black;.
-		width: 30%;
-		border: none;
-		margin-top: 0;
-	}
-	.collapsible-body{
-		border: none;
-		background-color: white;
-	}
-	.icon-duvida{
-		font-size: 120px;
-		color: #2B8FC4; 
-	}
-	#titleoqueprocura{
-		margin-top: 10px;
-	}
-	/* ================ PARCEIROS =============== */
-	#parceiros-title{
-		position: relative;
-	}
-	#hr-start-parceiros{
-		border: 1px	solid #FFFF;
-		margin-top: 50px;
-		
-	}
-	#hr-end-parceiros{
-		border: 1px	solid #FFFF;
-		margin-bottom: 50px;
-		
-	}
-	/* =============== CONTATO ================ */
-	#div-contato{
-		margin-top: 10px;
-		margin-bottom: -10px;
-		width: 100%;
-		height: 840px;q
-		background-color: white;
-		margin-bottom: 0;
-	}
-	#info{
-		margin-top: 30px;
-	}
-	.btn, .btn-large, .btn-small{
-		background-color: #2B8FC4;
-	}
-	#map{
-		width: 100%;
-	}
-	.icon-contato{
-		font-size: 25px;
-		bottom: -18px;
-		position: relative;
-		
-	}
-	.info-date{
-		margin-top: 20px;
-	}
-
-	/* ================ FOOTER ================  */
-
-	.page-footer{
-		background-color: black;
-	}
-	.footer-copyright{
-		box-shadow: 2px 2px 5px 4px rgba(22, 22, 22,.3);
-		
-	}
-	.icon-footer{
-		font-size: 20px;	
-		margin-right: 10px;
-	}
-
-}
-@media screen and (min-width: 602px){
+@media only screen and (min-width: 993px) {
+/* ================ NAVBAR ================  */
 	#navbar{
 		border-top: 0;
 		box-shadow: 0 5px 4px rgba(22, 22, 22,.3);
@@ -257,12 +76,6 @@ nav{
 	.navbar-fixed nav{
 		position: relative;
 	}
-	.sidenav{
-		z-index: 999;
-	}
-	.sidenav-overlay{
-		z-index: 996;
-	}
 	/* ================ HEADER ================  */
 	#header{
 	    z-index: -1;
@@ -275,7 +88,6 @@ nav{
 
 	/* ================ SOBRE NOS ================  */
 	#sobrenos{
-		height: 100vh;
 		background-color: white;
 		margin: 0;
 		padding-bottom: 10px;
@@ -293,7 +105,7 @@ nav{
 
 	#sobrenos-title{
 		margin-left: 0;
-		margin-top: 10px;
+		margin-top: 30px;
 		margin-bottom: 60px;
 		position: relative;
 		top: 30px;
@@ -302,37 +114,29 @@ nav{
 		font-size: 18px;
 		text-align: justify;
 	}
-	#sobrenos-img{
-		width: 300px;
+	.card-box{
+		height: 380px;
 	}
-
 	.hr-down{
 		border: none;
-		margin-top: 20px;
+		margin-top: 30px;
 		margin-bottom: 20px;
-	}
-	#cards-sobre{
 	}
 	#parallax-sobrenos{
 		height: 200px;
 	}
-	.card-box{
-		height: 380px;
-	}
-
 	/* ================ Serviços =============== */
 	#servicos{
-		height: 100vh;
 		background-color: #ffff;
 		margin: 0;
 	}
 	#hr-servico-left{
 		margin-top: 20px;
 		width: 30%;
-		border: 1px	solid black;
+		border: 2px	solid black;
 	}
 	#hr-servico-right{
-		border: 1px	solid black;
+		border: 2px	solid black;
 		width: 30%;
 		margin-top: 20px;
 	}
@@ -356,14 +160,15 @@ nav{
 		color: #ffff;
 		font-size: 120px;
 	}
+	#slogan-servico{
+		margin-top: 50px;
+		position: relative;
+		bottom: 30px;
+	}
 
 	/* ================ o que procura? ================= */
-	.parallax-container .parallax img{
-		z-index: -1;
-		filter: brightness(20%);
-	}
 	#parallax-oqueprocura{
-		height: 200px;
+		height: 220px;
 
 		z-index: 1;
 	}
@@ -403,9 +208,11 @@ nav{
 	#div-contato{
 		margin-top: 10px;
 		width: 100%;
-		height: 90vh;
 		background-color: white;
 		margin-bottom: 0;
+	}
+	#form-contato{
+		margin-bottom: 70px;
 	}
 	#info{
 		margin-top: 80px;
@@ -439,6 +246,408 @@ nav{
 	}
 	.icon-footer{
 		font-size: 20px;	
+		margin-right: 10px;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+	#navbar{
+		border-top: 0;
+		box-shadow: 0 5px 4px rgba(22, 22, 22,.3);
+	}
+	#logo{
+		width: 180px;
+		margin-left: 10px;
+		margin-top: 5px;
+	}
+
+	#triangle-up {
+		margin: 0 auto;
+		width: 0;
+		height: 0;
+		border-left: 60px solid transparent;
+		border-right: 60px solid transparent;
+		border-bottom: 30px solid black;
+	}
+	.sticky-nav{
+		top: 0;
+	}
+	.navbar-fixed nav{
+		position: relative;
+	}
+
+	/* ================ HEADER ================  */
+	#header{
+	    z-index: -1;
+	    background-color: #2B8FC4;
+	    width: 100%;
+	    min-height: 100%;
+	    height: 86vh;
+	}
+
+
+	/* ================ SOBRE NOS ================  */
+	#sobrenos{
+		height: 220vh;
+		background-color: white;
+		margin: 0;
+		padding-bottom: 10px;
+	}
+	#hr-title-left{
+		margin-top: 20px;
+		width: 30%;
+		border: 2px	solid black;
+	}
+	#hr-title-right{
+		border: 2px	solid black;
+		width: 30%;
+		margin-top: 20px;
+	}
+
+	#sobrenos-title{
+		margin-left: 0;
+		margin-top: 10px;
+		margin-bottom: 60px;
+		position: relative;
+		top: 30px;
+	}
+	#sobrenos-content{
+		font-size: 18px;
+		text-align: justify;
+	}
+	.card-box{
+		height: 300px;
+		margin-bottom: 15px;
+	}
+	.hr-down{
+		border: none;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#parallax-sobrenos{
+		height: 150px;
+	}
+	
+	/* ================ Serviços =============== */
+	#servicos{
+		height: 140vh;
+		background-color: #ffff;
+		margin: 0;
+	}
+	#parceiros-title{
+		margin-top: 20px;
+	}
+	.card{
+		background-color: rgba(255,255,255,0);
+		box-shadow: none;
+	}
+	.card .card-title{
+		font-size: 28px;
+		margin-top: -10px;
+	}
+	#hr-end-servico{
+		margin-top: 40px;
+		border: 1px	solid black;
+	}
+	.box-servico{
+		background-color: #2B8FC4;
+		padding: 30px;
+	}
+	.icon-servico{
+		color: #ffff;
+		font-size: 120px;
+	}
+	#slogan-servico{
+		margin-top: 50px;
+		position: relative;
+	}
+
+	/* ================ o que procura? ================= */
+	.parallax-container .parallax img{
+		z-index: -1;
+		filter: brightness(20%);
+	}
+	#parallax-oqueprocura{
+		height: 200px;
+
+		z-index: 1;
+	}
+	.collapsible{
+		border: none;
+		margin: 0;
+	}
+	.collapsible-header{
+		background-color: black;.
+		width: 30%;
+		border: none;
+	}
+	.collapsible-body{
+		border: none;
+		background-color: white;
+	}
+	.icon-duvida{
+		font-size: 120px;
+		color: #2B8FC4; 
+	}
+	/* ================ PARCEIROS =============== */
+	#parceiros-title{
+		position: relative;
+		top: 20px;
+	}
+	#hr-start-parceiros{
+		border: 1px	solid #FFFF;
+		margin-top: 50px;
+		
+	}
+	#hr-end-parceiros{
+		border: 1px	solid #FFFF;
+		margin-bottom: 50px;
+		
+	}
+	/* =============== CONTATO ================ */
+	#div-contato{
+		width: 100%;
+		height: 130vh;
+		background-color: white;
+		margin-bottom: 0;
+	}
+	#info{
+		margin-top: 80px;
+		margin-left: 60px;
+	}
+	.btn, .btn-large, .btn-small{
+		background-color: #2B8FC4;
+	}
+	.icon-contato{
+		font-size: 25px;
+		position: relative;
+		
+	}
+	.info-date{
+		margin-top: 0px;
+	}
+
+	/* ================ FOOTER ================  */
+
+	.page-footer{
+		background-color: black;
+		padding:  0;
+	}
+	.footer-copyright{
+		box-shadow: 2px 2px 5px 4px rgba(22, 22, 22,.3);
+		
+	}
+	.icon-footer{
+		font-size: 20px;	
+		margin-right: 10px;
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 600px){
+	/* ================ NAVBAR ================  */
+	#navbar{
+		border-top: 0;
+		box-shadow: 0 5px 4px rgba(22, 22, 22,.3);
+	}
+	#logo{
+		width: 150px;
+		margin-top: 7px;
+	}
+
+	#triangle-up {
+		margin: 0 auto;
+		width: 0;
+		height: 0;
+		border-left: 60px solid transparent;
+		border-right: 60px solid transparent;
+		border-bottom: 30px solid black;
+	}
+	.sticky-nav{
+		top: 0;
+	}
+	.navbar-fixed nav{
+		position: relative;
+	}
+	/* ================ HEADER ================  */
+	#header{
+	    z-index: -1;
+	    background-color: #2B8FC4;
+	    width: 100%;
+	    min-height: 100%;
+	    height: 86vh;
+	}
+
+
+	/* ================ SOBRE NOS ================  */
+	#sobrenos{
+		background-color: white;
+		margin: 0;
+		padding-bottom: 10px;
+	}
+	#hr-title-left{
+		margin-top: 20px;
+		width: 10%;
+		border: 2px	solid black;
+	}
+	#hr-title-right{
+		border: 2px	solid black;
+		width: 10%;
+		margin-top: 20px;
+	}
+
+	#sobrenos-title{
+		margin-left: 0;
+		margin-top: 30px;
+		margin-bottom: 60px;
+		position: relative;
+		top: 30px;
+	}
+	.card-sobrenos{
+		padding-bottom: 10px;
+	}
+	.subtitle-sobrenos{
+		margin-top: 0;
+	}
+	.card .card-content{
+		padding-top: 0;
+	}
+	#sobrenos-img{
+		width: 300px;
+	}
+	.card-box{
+		margin-bottom: 10px;
+	}
+	.hr-down{
+		border: none;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#parallax-sobrenos{
+		height: 150px;
+	}
+	
+	/* ================ Serviços =============== */
+	#servicos{
+		background-color: #ffff;
+		margin: 0;
+	}
+	#hr-servico-left{
+		margin-top: 20px;
+		width: 0;
+		border: none;
+	}
+	#hr-servico-right{
+		border: none;
+		width: 0;
+		margin-top: 20px;
+	}
+	.card{
+		background-color: rgba(255,255,255,0);
+		box-shadow: none;
+	}
+	.card .card-title{
+		font-size: 25px;
+		margin-top: -10px;
+	}
+	#hr-end-servico{
+		margin-top: 40px;
+		border: 1px	solid black;
+	}
+	.box-servico{
+		background-color: #2B8FC4;
+		padding: 25px;
+	}
+	.icon-servico{
+		color: #ffff;
+		font-size: 80px;
+	}
+	#slogan-servico{
+		margin-top: 20px;
+		position: relative;
+		padding-bottom: 10px;
+	}
+
+	/* ================ o que procura? ================= */
+
+	#parallax-oqueprocura{
+		height: 250px;
+		z-index: 1;
+	}
+	#titleoqueprocura{
+		margin-top:  20px;
+		font-size: 45px;
+	}
+	.card .card-content .card-title{
+		margin-top: 5px;
+	}
+	.collapsible{
+		border: none;
+		margin: 0;
+	}
+	.collapsible-header{
+		background-color: black;.
+		width: 30%;
+		border: none;
+	}
+	.collapsible-body{
+		border: none;
+		background-color: white;
+	}
+	.icon-duvida{
+		font-size: 120px;
+		color: #2B8FC4; 
+	}
+	/* ================ PARCEIROS =============== */
+	#parceiros-title{
+		position: relative;
+		top: 20px;
+	}
+	#hr-start-parceiros{
+		border: 1px	solid #FFFF;
+		margin-top: 30px;
+		
+	}
+	#hr-end-parceiros{
+		border: 1px	solid #FFFF;
+		margin-bottom: 30px;
+		
+	}
+	/* =============== CONTATO ================ */
+	#div-contato{
+		margin-top: 10px;
+		width: 100%;
+		background-color: white;
+		margin-bottom: 0;
+	}
+	#title-contato{
+		margin-top: 20px;
+	}
+	#info{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.icon-contato{
+		font-size: 23px;
+		bottom: -10px;
+		position: relative;
+		
+	}
+	.info-date{
+		margin-top: 20px;
+		font-size: 15px;
+	}
+
+	/* ================ FOOTER ================  */
+
+	.page-footer{
+		background-color: black;
+		padding:  0;
+	}
+	.footer-copyright{
+		box-shadow: 2px 2px 5px 4px rgba(22, 22, 22,.3);
+		
+	}
+	.icon-footer{
+		font-size: 18px;	
 		margin-right: 10px;
 	}
 }
