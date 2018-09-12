@@ -80,18 +80,23 @@
 						<hr id="hr-servico-right" class="col s2 m3 l3 right">
 					</h3>
 						
-					<div class="col s12 m4 l4  box-servico reveal1">
-							<img class="activator responsive-img " src="img/internet.png">
+					<div class="col s6 m3 l3 reveal1 ">
+							<i class="fa fa-television icon-servico box-servico circle center"></i>
 							<h5  class="card-title activator colorblacksite-text ">Website</h5>
 					</div>
-					<div class="col s12 m4 l4  box-servico reveal2">
-							<img class="activator responsive-img" src="img/3a1.png">
+					<div class="col s6 m3 l3 reveal1">
+							<i class="fa fa-cogs icon-servico box-servico circle center"></i>
 							<h5 class="card-title activator colorblacksite-text ">Sistemas Web</h5>
 					</div>
-					<div class="col s12 m4 l4  box-servico reveal3">
-							<img class="activator responsive-img " src="img/bd-clound1.png">
+					<div class="col s6 m3 l3 reveal1 ">
+							<i class="fa fa-cloud-upload icon-servico box-servico circle center"></i>
 						<h5 class="card-title activator colorblacksite-text ">Hospedagem de Sites</h5>
 					</div>
+					<div class="col s6 m3 l3 reveal1 ">
+							<i class="fa fa-wrench icon-servico box-servico circle center"></i>
+						<h5 class="card-title activator colorblacksite-text ">Manutenção de Sites</h5>
+					</div>
+					<div></div>
 					<div class="col s12"><hr id="hr-end-servico"></div>
 				</div>
 			</div>
