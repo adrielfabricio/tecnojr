@@ -20,7 +20,7 @@
 					<div id="hr-end-sobre" class="col s12"><hr class="hr-down"></div>
 					<div id="cards-sobre">
 
-						<div id="card1"	class="card-box col s12 m12 l4 z-depth-3 reveal1">
+						<div id="card1"	class="card-box col s12 m12 l4 myshadow reveal1">
 							<div class="card ">
 								<div class="card-image">
 									<i class="fa fa-flag-o large colorbluesite-background"></i>
@@ -33,7 +33,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="card3" class="card-box col s12 m12 l4 z-depth-3 reveal1">
+						<div id="card3" class="card-box col s12 m12 l4 myshadow reveal1">
 							<div class="card">
 								<div class="card-image">
 									<i class="	fa fa-group large colorbluesite-background"></i>
@@ -46,7 +46,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="card2" class="card-box col s12 m12 l4 z-depth-3 reveal1">
+						<div id="card2" class="card-box col s12 m12 l4 myshadow reveal1">
 							<div class="card">
 								<div class="card-image">
 									<i class="fa fa-child large colorbluesite-background"></i>

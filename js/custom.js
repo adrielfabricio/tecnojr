@@ -59,7 +59,7 @@ $(document).ready(function(){
     	}
     });
     //Aplicar um hover nos card de sobre nós
-    $('.z-depth-3').hover(
+    $('.myshadow').hover(
     	function () {
     		$(this).addClass("z-depth-5");
     		// $(this, ".box-servico").css("background-color", "white");
