@@ -33,19 +33,6 @@
 								</div>
 							</div>
 						</div>
-						<div id="card2" class="card-box col s12 m12 l4 z-depth-3 reveal1">
-							<div class="card">
-								<div class="card-image">
-									<i class="fa fa-child large colorbluesite-background"></i>
-								</div>
-								<h3 >Valor</h3>
-								<div class="card-content">
-									<p>
-										Empreendedorismo, Inovação, Transparência, Sinergia e Orgulho de ser Tecno
-									</p>
-								</div>
-							</div>
-						</div>
 						<div id="card3" class="card-box col s12 m12 l4 z-depth-3 reveal1">
 							<div class="card">
 								<div class="card-image">
@@ -55,6 +42,19 @@
 								<div class="card-content">
 									<p>
 										Ser reconhecida pela excelência na prestação de serviços e tornar-se a melhor empresa júnior brasileira de TI
+									</p>
+								</div>
+							</div>
+						</div>
+						<div id="card2" class="card-box col s12 m12 l4 z-depth-3 reveal1">
+							<div class="card">
+								<div class="card-image">
+									<i class="fa fa-child large colorbluesite-background"></i>
+								</div>
+								<h3 >Valores</h3>
+								<div class="card-content">
+									<p>
+										Empreendedorismo, Inovação, Transparência, Sinergia e Orgulho de ser Tecno
 									</p>
 								</div>
 							</div>
