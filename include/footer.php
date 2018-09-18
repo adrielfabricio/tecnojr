@@ -14,6 +14,6 @@
 	</div>
 
 	<script src="js/jquery.js"></script>
-	<script src="./js/materialize.js"></script>	
-	<script src="./js/custom.js"></script>
+	<script src="js/materialize.js"></script>	
+	<script src="js/custom.js"></script>
 </footer>
