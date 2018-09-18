@@ -1,6 +1,6 @@
 <div id="parceiros">
-	<div id="parceiros-title" >
-		<h3 class="white-text">Parceiros</h3>
+	<div id="parceiros-title-div" >
+		<h3 id="parceiros-title" class="white-text">Parceiros</h3>
 	</div>
 	<div id="parceiros-icon" class="row center">
 		<a href="" class="col s6 m6 l4 parceiro"><img class="parceiro-img" src="img/colcic_small2.png" alt=""></a>

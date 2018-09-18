@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-
+<?php
+require_once 'include/dir_root.php';
+?>
 <html lang=”pt-br”>
-	<?php require_once 'include/head.php' ?>
+	<head>
+
+		<?php require_once 'include/head.php' ?>
+
+	</head>
 	<body>
-		<?php require_once 'include/header.php' ?>
+
+		<header>
+
+			<?php require_once 'include/header.php' ?>
+
+		</header>
 		<main>
 
 			<?php 
@@ -18,11 +29,16 @@
 
 			require_once "view/parceiros.php" ;
 
-			require_once 'view/contato.php' 
+			require_once 'view/contato.php';
+
 			?>
-			
+
 		</main>
 
-		<?php require_once 'include/footer.php' ?>
+		<footer class="page-footer">
+
+			<?php require_once 'include/footer.php' ?>
+
+		</footer>
 	</body>
 </html>

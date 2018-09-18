@@ -7,7 +7,7 @@
 		<h3 id="title-contato">Contato</h3>
 	</div>
 
-	<div id="form-contato" class="col s12 m12 l6  ">
+	<div id="form-contato" class="col s10 m10 l6  offset-s1 offset-m1 ">
 		<form class="col s12" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 			<div class="row reveal1">
 				<div class="input-field col m6 l12 s12">
@@ -22,7 +22,7 @@
 					<label for="tel_celular">Telefone</label>
 				</div>
 
-				<div class="input-field col m6 s12">
+				<div class="input-field col l6 m12 s12">
 					<i class="material-icons prefix colorbluesite-text">email</i>
 					<input id="email" name="email" type="email" class="validate" data-length="30" maxlength="30" onblur="test_empty('email')" value="<?php echo $data['email'] ?>" required>
 					<label for="email">E-mail</label>

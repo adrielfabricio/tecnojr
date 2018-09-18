@@ -73,6 +73,18 @@ header{
 	.div-padding{
 		padding:  35px;
 	}
+	/* === Equipe === */
+	.membros{
+		margin-bottom: 50px;
+	}
+	#membros-title{
+		margin-top: 0;
+		padding: 40px;
+	}
+	#div-membros{
+		background-color: white;
+		height: auto;	
+	}
 /* ================ NAVBAR ================  */
 	#navbar{
 		border-top: 0;
@@ -146,9 +158,6 @@ header{
 	#sobrenos-content{
 		font-size: 18px;
 		text-align: justify;
-	}
-	.card-box{
-		height: 380px;
 	}
 	.hr-down{
 		border: none;
@@ -224,24 +233,22 @@ header{
 	}
 	/* ================ PARCEIROS =============== */
 
-	#parceiros-title{
+	#parceiros-title-div{
 		position: relative;
-		top: 30px;
 		margin-left: 30px;
-		bottom: 30px;
 		border-left: 5px solid #2b8fc4;
 		padding-left: 7px;
 	}
-	#parceiros-icon{
-		margin-bottom: 50px;
-		margin-top: 40px;
+	#parceiros-title{
+		font-size: 30px;	
+		margin-top: 10px;
 	}
-	.parceiro{
-		margin-top: 40px;
-		padding: 30px;
+	#parceiros-icon{
+		margin-bottom: 20px;
+		margin-top: 10px;
 	}
 	.parceiro-img{
-		width: 40%;
+		width: 30%;
 	}
 
 	/* =============== CONTATO ================ */
@@ -290,6 +297,23 @@ header{
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
+	.div-padding{
+		padding:  25px;
+	}
+	/* === Equipe === */
+	.membros{
+		margin-bottom: 50px;
+	}
+	#membros-title{
+		margin-top: 0;
+		padding: 40px;
+	}
+	#div-membros{
+		background-color: white;
+		height: auto;	
+	}
+
+/* ================ NAVBAR ================  */
 	#navbar{
 		border-top: 0;
 		box-shadow: 0 5px 4px rgba(22, 22, 22,.3);
@@ -298,9 +322,8 @@ header{
 		top: -93px;
 	}
 	#logo{
-		width: 180px;
-		margin-left: 10px;
-		margin-top: 5px;
+		width: 150px;
+		margin-top: 10px;
 	}
 
 	#triangle-up {
@@ -317,8 +340,15 @@ header{
 	.navbar-fixed nav{
 		position: relative;
 	}
-
 	/* ================ HEADER ================  */
+	.icon-navbar{
+		padding-right: 5px;
+		font-size: 22px;
+	}
+	.link-navbar{
+		font-size: 20px;
+	}
+
 	#header{
 	    z-index: -1;
 	    background-color: #2B8FC4;
@@ -330,25 +360,24 @@ header{
 
 	/* ================ SOBRE NOS ================  */
 	#sobrenos{
-		height: 220vh;
 		background-color: white;
 		margin: 0;
 		padding-bottom: 10px;
 	}
 	#hr-title-left{
 		margin-top: 20px;
-		width: 30%;
-		border: 2px	solid #212121;
+		width: 20%;
+		border: 1px	solid #212121;
 	}
 	#hr-title-right{
-		border: 2px	solid #212121;
-		width: 30%;
+		border: 1px	solid #212121;
+		width: 20%;
 		margin-top: 20px;
 	}
 
 	#sobrenos-title{
 		margin-left: 0;
-		margin-top: 10px;
+		margin-top: 40px;
 		margin-bottom: 60px;
 		position: relative;
 		top: 30px;
@@ -357,26 +386,27 @@ header{
 		font-size: 18px;
 		text-align: justify;
 	}
-	.card-box{
-		height: 300px;
-		margin-bottom: 15px;
-	}
 	.hr-down{
 		border: none;
-		margin-top: 20px;
+		margin-top: 30px;
 		margin-bottom: 20px;
 	}
 	#parallax-sobrenos{
-		height: 150px;
+		height: 200px;
 	}
-	
 	/* ================ Serviços =============== */
 	#servicos{
-		height: 140vh;
 		background-color: #ffff;
 		margin: 0;
 	}
-	#parceiros-title{
+	#hr-servico-left{
+		margin-top: 20px;
+		width: 20%;
+		border: 1px	solid #212121;
+	}
+	#hr-servico-right{
+		border: 1px	solid #212121;
+		width: 20%;
 		margin-top: 20px;
 	}
 	.card{
@@ -402,15 +432,12 @@ header{
 	#slogan-servico{
 		margin-top: 50px;
 		position: relative;
+		bottom: 30px;
 	}
 
 	/* ================ o que procura? ================= */
-	.parallax-container .parallax img{
-		z-index: -1;
-		filter: brightness(20%);
-	}
 	#parallax-oqueprocura{
-		height: 200px;
+		height: 220px;
 
 		z-index: 1;
 	}
@@ -432,41 +459,52 @@ header{
 		color: #2B8FC4; 
 	}
 	/* ================ PARCEIROS =============== */
-	#parceiros-title{
+
+	#parceiros-title-div{
 		position: relative;
-		top: 20px;
+		margin-left: 30px;
+		border-left: 5px solid #2b8fc4;
+		padding-left: 7px;
 	}
-	#hr-start-parceiros{
-		border: 1px	solid #FFFF;
-		margin-top: 50px;
-		
+	#parceiros-title{
+		font-size: 25px;	
+		margin-top: 10px;
 	}
-	#hr-end-parceiros{
-		border: 1px	solid #FFFF;
-		margin-bottom: 50px;
-		
+	#parceiros-icon{
+		margin-bottom: 20px;
+		margin-top: 10px;
 	}
+	.parceiro-img{
+		width: 30%;
+	}
+
+
 	/* =============== CONTATO ================ */
 	#div-contato{
+		margin-top: 10px;
 		width: 100%;
-		height: 130vh;
 		background-color: white;
 		margin-bottom: 0;
 	}
+	#form-contato{
+		margin-bottom: 70px;
+	}
 	#info{
-		margin-top: 80px;
-		margin-left: 60px;
+		margin-bottom: 40px;
 	}
 	.btn, .btn-large, .btn-small{
 		background-color: #2B8FC4;
 	}
+	#map{
+		width: 100%;
+	}
 	.icon-contato{
 		font-size: 25px;
 		position: relative;
-		
+		vertical-align: .125em;
 	}
 	.info-date{
-		margin-top: 0px;
+		margin-top: 10px;
 	}
 
 	/* ================ FOOTER ================  */
@@ -485,17 +523,32 @@ header{
 	}
 }
 @media only screen and (min-width: 0px) and (max-width: 600px){
-	/* ================ NAVBAR ================  */
+	.div-padding{
+		padding:  20px;
+	}
+	/* === Equipe === */
+	.membros{
+		margin-bottom: 50px;
+	}
+	#membros-title{
+		margin-top: 0;
+		padding: 40px;
+	}
+	#div-membros{
+		background-color: white;
+		height: auto;	
+	}
+/* ================ NAVBAR ================  */
 	#navbar{
 		border-top: 0;
 		box-shadow: 0 5px 4px rgba(22, 22, 22,.3);
 	}
 	.navbar-fixed{
-		top: -85px;
+		top: -88px;
 	}
 	#logo{
-		width: 150px;
-		margin-top: 7px;
+		width: 130px;
+		margin-top: 10px;
 	}
 
 	#triangle-up {
@@ -513,6 +566,14 @@ header{
 		position: relative;
 	}
 	/* ================ HEADER ================  */
+	.icon-navbar{
+		padding-right: 5px;
+		font-size: 22px;
+	}
+	.link-navbar{
+		font-size: 20px;
+	}
+
 	#header{
 	    z-index: -1;
 	    background-color: #2B8FC4;
@@ -530,46 +591,34 @@ header{
 	}
 	#hr-title-left{
 		margin-top: 20px;
-		width: 10%;
-		border: 2px	solid #212121;
+		width: 15%;
+		border: 1px	solid #212121;
 	}
 	#hr-title-right{
-		border: 2px	solid #212121;
-		width: 10%;
+		border: 1px	solid #212121;
+		width: 15%;
 		margin-top: 20px;
 	}
 
 	#sobrenos-title{
 		margin-left: 0;
-		margin-top: 30px;
+		margin-top: 40px;
 		margin-bottom: 60px;
 		position: relative;
 		top: 30px;
 	}
-	.card-sobrenos{
-		padding-bottom: 10px;
-	}
-	.subtitle-sobrenos{
-		margin-top: 0;
-	}
-	.card .card-content{
-		padding-top: 0;
-	}
-	#sobrenos-img{
-		width: 300px;
-	}
-	.card-box{
-		margin-bottom: 10px;
+	#sobrenos-content{
+		font-size: 18px;
+		text-align: justify;
 	}
 	.hr-down{
 		border: none;
-		margin-top: 20px;
+		margin-top: 30px;
 		margin-bottom: 20px;
 	}
 	#parallax-sobrenos{
-		height: 150px;
+		height: 250px;
 	}
-	
 	/* ================ Serviços =============== */
 	#servicos{
 		background-color: #ffff;
@@ -577,12 +626,12 @@ header{
 	}
 	#hr-servico-left{
 		margin-top: 20px;
-		width: 0;
-		border: none;
+		width: 15%;
+		border: 1px	solid #212121;
 	}
 	#hr-servico-right{
-		border: none;
-		width: 0;
+		border: 1px	solid #212121;
+		width: 15%;
 		margin-top: 20px;
 	}
 	.card{
@@ -590,7 +639,7 @@ header{
 		box-shadow: none;
 	}
 	.card .card-title{
-		font-size: 25px;
+		font-size: 28px;
 		margin-top: -10px;
 	}
 	#hr-end-servico{
@@ -599,30 +648,26 @@ header{
 	}
 	.box-servico{
 		background-color: #2B8FC4;
-		padding: 25px;
+		padding: 30px;
 	}
 	.icon-servico{
 		color: #ffff;
-		font-size: 80px;
+		font-size: 120px;
 	}
 	#slogan-servico{
-		margin-top: 20px;
+		margin-top: 50px;
 		position: relative;
-		padding-bottom: 10px;
+		bottom: 30px;
 	}
 
 	/* ================ o que procura? ================= */
-
-	#parallax-oqueprocura{
-		height: 250px;
-		z-index: 1;
-	}
 	#titleoqueprocura{
-		margin-top:  20px;
-		font-size: 45px;
+		font-size: 40px;
 	}
-	.card .card-content .card-title{
-		margin-top: 5px;
+	#parallax-oqueprocura{
+		height: 270px;
+
+		z-index: 1;
 	}
 	.collapsible{
 		border: none;
@@ -642,19 +687,23 @@ header{
 		color: #2B8FC4; 
 	}
 	/* ================ PARCEIROS =============== */
-	#parceiros-title{
+
+#parceiros-title-div{
 		position: relative;
-		top: 20px;
+		margin-left: 30px;
+		border-left: 5px solid #2b8fc4;
+		padding-left: 7px;
 	}
-	#hr-start-parceiros{
-		border: 1px	solid #FFFF;
-		margin-top: 30px;
-		
+	#parceiros-title{
+		font-size: 25px;	
+		margin-top: 10px;
 	}
-	#hr-end-parceiros{
-		border: 1px	solid #FFFF;
-		margin-bottom: 30px;
-		
+	#parceiros-icon{
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+	.parceiro-img{
+		width: 30%;
 	}
 	/* =============== CONTATO ================ */
 	#div-contato{
@@ -663,22 +712,25 @@ header{
 		background-color: white;
 		margin-bottom: 0;
 	}
-	#title-contato{
-		margin-top: 20px;
+	#form-contato{
+		margin-bottom: 70px;
 	}
 	#info{
-		margin-top: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 50px;
+	}
+	.btn, .btn-large, .btn-small{
+		background-color: #2B8FC4;
+	}
+	#map{
+		width: 100%;
 	}
 	.icon-contato{
-		font-size: 23px;
-		bottom: -10px;
+		font-size: 25px;
 		position: relative;
-		
+		vertical-align: .125em;
 	}
 	.info-date{
-		margin-top: 20px;
-		font-size: 15px;
+		margin-top: 10px;
 	}
 
 	/* ================ FOOTER ================  */
@@ -692,7 +744,7 @@ header{
 		
 	}
 	.icon-footer{
-		font-size: 18px;	
+		font-size: 20px;	
 		margin-right: 10px;
 	}
 }
