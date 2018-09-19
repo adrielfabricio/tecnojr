@@ -11,6 +11,6 @@
 	</div>
 </div>
 
-<script src="js/jquery.js"></script>
-<script src="js/materialize.js"></script>	
+<script src="js/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>	
 <script src="js/custom.js"></script>
