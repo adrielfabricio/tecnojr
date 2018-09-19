@@ -116,10 +116,10 @@ header{
 	/* ================ HEADER ================  */
 	.icon-navbar{
 		padding-right: 5px;
-		font-size: 22px;
+		font-size: 20px;
 	}
 	.link-navbar{
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	#header{
@@ -195,12 +195,13 @@ header{
 		border: 1px	solid #212121;
 	}
 	.box-servico{
-		background-color: #2B8FC4;
+		background-color: #ffff;
 		padding: 30px;
+		margin-top: 30px;
 	}
 	.icon-servico{
-		color: #ffff;
-		font-size: 120px;
+		color: #2B8FC4;
+		font-size: 150px;
 	}
 	#slogan-servico{
 		margin-top: 50px;
@@ -248,7 +249,7 @@ header{
 		margin-top: 10px;
 	}
 	.parceiro-img{
-		width: 30%;
+		width: 40%;
 	}
 
 	/* =============== CONTATO ================ */
@@ -422,11 +423,11 @@ header{
 		border: 1px	solid #212121;
 	}
 	.box-servico{
-		background-color: #2B8FC4;
+		background-color: #ffff;
 		padding: 30px;
 	}
 	.icon-servico{
-		color: #ffff;
+		color: #2B8FC4;
 		font-size: 120px;
 	}
 	#slogan-servico{
@@ -475,7 +476,7 @@ header{
 		margin-top: 10px;
 	}
 	.parceiro-img{
-		width: 30%;
+		width: 40%;
 	}
 
 
@@ -505,6 +506,7 @@ header{
 	}
 	.info-date{
 		margin-top: 10px;
+		font-size: 16px;
 	}
 
 	/* ================ FOOTER ================  */
@@ -608,7 +610,7 @@ header{
 		top: 30px;
 	}
 	#sobrenos-content{
-		font-size: 18px;
+		font-size: 14px;
 		text-align: justify;
 	}
 	.hr-down{
@@ -617,7 +619,10 @@ header{
 		margin-bottom: 20px;
 	}
 	#parallax-sobrenos{
-		height: 250px;
+		height: 200px;
+	}
+	#titleequipe{
+		font-size: 30px;
 	}
 	/* ================ Serviços =============== */
 	#servicos{
@@ -647,11 +652,11 @@ header{
 		border: 1px	solid #212121;
 	}
 	.box-servico{
-		background-color: #2B8FC4;
+		background-color: #ffff;
 		padding: 30px;
 	}
 	.icon-servico{
-		color: #ffff;
+		color: #2B8FC4;
 		font-size: 120px;
 	}
 	#slogan-servico{
@@ -662,10 +667,10 @@ header{
 
 	/* ================ o que procura? ================= */
 	#titleoqueprocura{
-		font-size: 40px;
+		font-size: 30px;
 	}
 	#parallax-oqueprocura{
-		height: 270px;
+		height: 220px;
 
 		z-index: 1;
 	}
@@ -688,7 +693,7 @@ header{
 	}
 	/* ================ PARCEIROS =============== */
 
-#parceiros-title-div{
+	#parceiros-title-div{
 		position: relative;
 		margin-left: 30px;
 		border-left: 5px solid #2b8fc4;
@@ -703,7 +708,7 @@ header{
 		margin-top: 10px;
 	}
 	.parceiro-img{
-		width: 30%;
+		width: 40%;
 	}
 	/* =============== CONTATO ================ */
 	#div-contato{
@@ -731,6 +736,7 @@ header{
 	}
 	.info-date{
 		margin-top: 10px;
+		font-size: 14px;
 	}
 
 	/* ================ FOOTER ================  */

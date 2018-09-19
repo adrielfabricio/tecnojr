@@ -15,7 +15,7 @@ $(document).ready(function(){
     $('.slider').slider({
     	indicators: false,
     	height: 600,
-    	duration: 600,
+    	duration: 1000,
     	interval: 5000
     });
     //Realiza o scroll devagar

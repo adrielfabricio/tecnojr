@@ -32,9 +32,9 @@
 				        	<i class="fa fa-laptop icon-duvida"></i>
 				        </div>
 				        <div class="card-content">
-					        <span class="card-title center">Site informativo</span>
+					        <span class="card-title center">Site institucional</span>
 					        <p class="card-sobrenos center">
-					        	Com o objetivo de divulgar seus serviços ou eventos, o site informativo veio para propagar essas informações através da internet, expandindo cada vez mais seu negócio ou evento. 
+					        	Com o objetivo de divulgar seus serviços, o site institucional veio para propagar essas informações através da internet, expandindo cada vez mais seu negócio. 
 					        </p>
 				        </div>
 					</div>
